@@ -5,6 +5,7 @@ public class Principal{
     	System.out.println("Ingrese un saludo");
     	Scanner s = new Scanner(System.in);
     	saludo=s.next();
+    	System.out.println("GRACIAS!!!");
         int vida, rp;
         boolean fl=false;
         vida=0;
