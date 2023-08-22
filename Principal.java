@@ -1,6 +1,10 @@
 import java.util.Scanner;
 public class Principal{
     public static void main(String[] args){
+    	String saludo;
+    	System.out.println("Ingrese un saludo");
+    	Scanner s = new Scanner(System.in);
+    	saludo=s.next();
         int vida, rp;
         boolean fl=false;
         vida=0;
