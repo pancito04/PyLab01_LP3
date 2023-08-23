@@ -21,5 +21,8 @@ public class Principal{
             System.out.println("Adivinaste!!!");
         else
             System.out.println("ups, perdiste!!!");
+        Regalo regalo=new Regalo();
+        System.out.println(regalo.gift(vida));
+        System.out.println("Gracias por jugar nuestro juego!!!");
     }
 }
